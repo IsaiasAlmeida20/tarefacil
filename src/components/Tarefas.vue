@@ -13,7 +13,7 @@
     <div class="m-4">
         <h3>Tarefas para fazer</h3>
 
-        <p v-if="tarefas.length == 0">Voçe não tem nenhuma tarefa para fazer ;)</p>
+        <p v-if="tarefas.length == 0">Voce não tem nenhuma tarefa para fazer ;)</p>
 
         <ul class="list-group mb-1" v-for="(tarefa, i) in tarefas" :key="i">
             <li class="list-group-item d-flex justify-content-between align-items-center">
@@ -42,7 +42,7 @@
     <div class="m-4">
         <h3>Tarefas concluidas</h3>
 
-        <p v-if="tarefasConcluidas.length == 0">Voçe ainda não concluiu nenhuma tarefa :(</p>
+        <p v-if="tarefasConcluidas.length == 0">Voce ainda não concluiu nenhuma tarefa :(</p>
 
         <ul class="list-group m-1" v-for="(tarefa, i) in tarefasConcluidas" :key="i">
             <li class="list-group-item d-flex justify-content-between align-items-center">
